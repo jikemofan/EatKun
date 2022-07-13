@@ -170,7 +170,8 @@ function SubmitResults() {
         let name = document.getElementById("username").value;
         let message = document.getElementById("message").value;
         let test = "|_|";
-        httpRequest.send(encrypt(_gameScore + test + name + test + tj + test + system + test + area + test + message));
+        httpRequest.send(_gameScore + test + name + test + tj + test + system + test + area + test + message);
+        //httpRequest.send(encrypt(_gameScore + test + name + test + tj + test + system + test + area + test + message));
     }
 }
 
